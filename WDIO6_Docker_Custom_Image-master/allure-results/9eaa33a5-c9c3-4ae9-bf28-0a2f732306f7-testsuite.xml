@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620279798658' stop='1620279798689'>
+    <name>Home page  feature suite</name>
+    <title>Home page  feature suite</title>
+    <test-cases>
+        <test-case start='1620279798659' status='broken' stop='1620279798683'>
+            <name>Test home page is displaying all the links and videos</name>
+            <title>Test home page is displaying all the links and videos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.Speedcap.waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: this.Speedcap.waitForDisplayed is not a function
+                    at LoginPage.verifysvgIconsList (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\pageobjects\home.po.js:49:24)
+                    at Context.&lt;anonymous> (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\specs\home.spec.js:10:17)
+                    at Context.executeAsync (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\shim.js:101:25)
+                    at Context.exports.testFrameworkFnWrapper (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

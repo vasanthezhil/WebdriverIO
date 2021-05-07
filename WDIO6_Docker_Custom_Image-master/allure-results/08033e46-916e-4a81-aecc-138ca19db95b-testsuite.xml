@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620293396274' stop='1620293396368'>
+    <name>check cars page </name>
+    <title>check cars page </title>
+    <test-cases>
+        <test-case start='1620293396275' status='broken' stop='1620293396302'>
+            <name>check the Electric cars section </name>
+            <title>check the Electric cars section </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.carsclick.click is not a function</message>
+                <stack-trace>TypeError: this.carsclick.click is not a function
+                    at Carspage.goToelectriccars (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\pageobjects\cars.po.js:9:24)
+                    at Context.&lt;anonymous> (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\specs\cars.spec.js:8:12)
+                    at Context.executeAsync (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\shim.js:101:25)
+                    at Context.exports.testFrameworkFnWrapper (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620293396309' status='broken' stop='1620293396322'>
+            <name>check the Hybrid cars section</name>
+            <title>check the Hybrid cars section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.carsclick.click is not a function</message>
+                <stack-trace>TypeError: this.carsclick.click is not a function
+                    at Carspage.goTohybridcars (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\pageobjects\cars.po.js:15:24)
+                    at Context.&lt;anonymous> (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\specs\cars.spec.js:13:12)
+                    at Context.executeAsync (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\shim.js:101:25)
+                    at Context.exports.testFrameworkFnWrapper (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620293396335' status='broken' stop='1620293396345'>
+            <name>check the Mild-Hybrid cars section</name>
+            <title>check the Mild-Hybrid cars section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.carsclick.click is not a function</message>
+                <stack-trace>TypeError: this.carsclick.click is not a function
+                    at Carspage.goTomildhybrid (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\pageobjects\cars.po.js:21:24)
+                    at Context.&lt;anonymous> (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\test\specs\cars.spec.js:18:12)
+                    at Context.executeAsync (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\shim.js:101:25)
+                    at Context.exports.testFrameworkFnWrapper (C:\Users\vaezhilk\Downloads\WDIO6_Docker_Custom_Image-master\WDIO6_Docker_Custom_Image-master\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:18:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

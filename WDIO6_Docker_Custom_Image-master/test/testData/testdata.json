@@ -1,0 +1,14 @@
+{
+    "login": {
+      "userName":       "*****",
+      "password":      "******"
+    },
+
+    "dashboard" : {
+        "accountsOverview" : "Accounts Overview"
+    },
+
+    "title" : {
+      "titletest" : "Volvo"
+  }
+  }
